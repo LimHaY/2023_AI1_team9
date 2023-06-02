@@ -3,6 +3,9 @@
 #### "가족관계가 알려진 얼굴 이미지 데이터 세트" 활용하기
 
 ## 데이터 전처리
+
+1. [모든 zip 파일 압축해제](https://github.com/LimHaY/2023_AI1_team9/blob/main/unZip.py)
+
 ai hub 원본 데이터 폴더구조
 ```
   /family_dataset
@@ -29,5 +32,5 @@ ai hub 원본 데이터 폴더구조
         ......
         VL0900.zip
 ```
-1. 모든 zip 파일 압축해제
 
+2. [폴더 규칙 정리]()
