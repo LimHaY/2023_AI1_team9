@@ -4,7 +4,8 @@
 
 ## 데이터 전처리
 
-#### 1. [모든 zip 파일 압축해제](https://github.com/LimHaY/2023_AI1_team9/blob/main/unZip.py)
+#### 1. 모든 zip 파일 압축해제
+- [소스코드](https://github.com/LimHaY/2023_AI1_team9/blob/main/unZip.py)
 
 ```
 # ai hub 원본 데이터 폴더구조
@@ -33,7 +34,9 @@
         VL0900.zip
 ```
 
-#### 2. [폴더 규칙 정리](https://github.com/LimHaY/2023_AI1_team9/blob/main/folder_Rule.py) : 각 친족마다 하나의 폴더로 구성됨
+#### 2. 폴더 규칙 정리
+- [소스코드](https://github.com/LimHaY/2023_AI1_team9/blob/main/folder_Rule.py)
+- 각 친족마다 하나의 폴더로 구성됨
 ```
 # 예시 폴더 구조
 /1.Training
@@ -46,7 +49,9 @@
     TL0002
     ......
 ```
-#### 3. [파일 검증](https://github.com/LimHaY/2023_AI1_team9/blob/main/kinship_type.py) 각 폴더 내에는 친가(A) 또는 외가(B) 폴더만 존재함
+#### 3. 파일 검증
+- [소스코드](https://github.com/LimHaY/2023_AI1_team9/blob/main/kinship_type.py)
+- 각 폴더 내에는 친가(A) 또는 외가(B) 폴더만 존재함
 ```
 # 예시 폴더 구조
 /VS0801
@@ -68,7 +73,7 @@
 #### 5. 이미지 크기 줄이기
 - [소스코드](https://github.com/LimHaY/2023_AI1_team9/blob/main/resize_image.py)
 - 256 * 256 크기로 사이즈 줄이기
-#### 6. 고정된 평가 데이터 세트 만들기
+#### 6. 학습 데이터 세트 만들기
 - [소스코드](https://github.com/LimHaY/2023_AI1_team9/blob/main/make_fixed_test_dataset.py)
 - train group : F0001 ~ F0727 , 22,427개 이미지
 - validataion group : F0728 ~ F0812 , 2712 개 이미지
