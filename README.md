@@ -78,3 +78,39 @@
 - train group : F0001 ~ F0727 , 22,427개 이미지
 - validataion group : F0728 ~ F0812 , 2712 개 이미지
 - test group : F0813 ~ F0900 , 2670 개 이미지
+- 평가를 위하여 validataion group과 test group은 각 5000쌍의 가족(positive)과 5000쌍의 비가족(negative)으로 구성됨
+
+### 최종적으로 전처리된 데이터 세트
+custom_family_dataset.zip
+```
+/custom_family_dataset
+  /fixed_test_dataset
+    /negative
+      /0
+        F0818_AGE_S_35_a1.jpg
+        F0819_AGE_F_57_e1.jpg
+      /1
+      ......
+      /5000
+    /positive
+      /0
+        F0856_AGE_D_50_e2.jpg
+        F0856_AGE_M_75_g3.JPG
+      /1
+      ......
+      /5000
+  /fixed_val_dataset
+    /negative
+    /positive
+  /train_images
+    F0001_AGE_D_18_a1.jpg
+    F0001_AGE_D_18_a2.jpg
+    ......
+  custom_dataset.csv
+  custom_test_dataset.csv
+  custom_train_dataset.csv
+  custom_val_dataset.csv
+```
+
+## 가족관계 예측 모델 구축
+- siamese network 기반
