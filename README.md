@@ -113,4 +113,15 @@ custom_family_dataset.zip
 ```
 
 ## 가족관계 예측 모델 구축
-- siamese network 기반
+- [weighted_kinship_verification_12epoch](https://github.com/LimHaY/2023_AI1_team9/blob/main/weighted_kinship_verification_12epoch.ipynb)
+- siamese network 활용
+- 가족 내 지위에 따른 가중치 부여
+- 지위: "GF", "GM", "F", "M", "S", "D", "S2", "S3", "S4", "D2", "D3", "D4"
+```
+GF: 할아버지
+GM: 할머니
+F: 아버지
+M: 어머니
+S: 아들
+D: 딸
+```
